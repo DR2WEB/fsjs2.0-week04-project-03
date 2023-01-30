@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #2b2923;
+}
+/* navbar */
+nav {
+  display: flex;
+  margin-left: 6rem;
+}
+nav img {
+  width: 8%;
+  margin-top: 20px;
+  margin-left: 16rem;
+  margin-right: 13.5rem;
+}
+nav ul {
+  display: flex;
+  gap: 20px;
+  margin-left: 2px;
+  margin-right: 2rem;
+}
+nav ul li {
+  list-style: none;
+  text-transform: capitalize;
+  color: gray;
+  font-size: 11px;
+  margin-top: 30px;
+}
+nav button {
+  padding: 10px 20px;
+  border: 1px solid #a09036;
+  background-color: #2b2923;
+  color: #a09036;
+  border-radius: 6px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 10px;
+  text-transform: capitalize;
+  margin-top: 22px;
+}
+.hero-section {
+  display: flex;
+}
+.heading h1 {
+  font-family: "Russo One", sans-serif;
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 42px;
+  width: 30%;
+  position: absolute;
+  top: 7rem;
+  left: 22rem;
+}
+.hero-section .side-description {
+  color: #fff;
+  line-height: 1.5;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  width: 23%;
+  position: absolute;
+  left: 50rem;
+  top: 8rem;
+}
+/* banner */
+.banner img {
+  width: 55%;
+  height: 55%;
+  position: absolute;
+  bottom: 2px;
+  left: 22rem;
+}
